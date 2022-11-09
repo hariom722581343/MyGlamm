@@ -1,3 +1,4 @@
+
 // import navbar from "../component/navbar.js";
 
 // let Navbar=document.getElementById("Navbar");
@@ -23,3 +24,4 @@ let id=setInterval(function(){
   };
   i++;
 },3000);
+
