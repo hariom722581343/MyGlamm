@@ -11,7 +11,7 @@ const navbar = () => {
         <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             <li>
-                <a href="#" class="desktop-item">HOME</a>
+                <a href="index.html" class="desktop-item">HOME</a>
                 <input type="checkbox" id="showMega">
                 <label for="showMega" class="mobile-item">HOME</label>
             </li>
@@ -24,7 +24,7 @@ const navbar = () => {
                         <div class="row">
                             <header>LIPS</header>
                             <ul class="mega-links">
-                            <li><a href="#">Lipstick</a></li>
+                            <li><a href="Lipstick.html">Lipstick</a></li>
                             <li><a href="#">Crayon Lipstick</a></li>
                             <li><a href="#">Liquid Lipstick</a></li>
                             <li><a href="#">Hi-Shine Lipstick</a></li>
