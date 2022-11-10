@@ -7,7 +7,7 @@ a{
   text-decoration: none;
 }
 
-#inner {
+/* #inner {
   background: rgb(229, 139, 86);
   background: linear-gradient(
     90deg,
@@ -65,7 +65,7 @@ marquee:hover {
 }
 .fa-solid:hover {
   color: #ffffff;
-}
+} */
 #nav {
   position: fixed;
   z-index: 99;
