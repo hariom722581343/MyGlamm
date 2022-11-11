@@ -1,6 +1,23 @@
+
 const navbar = () => {
-    return `<nav>
-        <div class="wrapper">
+    return `
+    <div id="first_nav">
+    <div id="top">
+    <i class="fa-solid fa-gift"></i>
+    <div id="sec1">
+        <p>Pick Any Product at Rs 199</p>
+        <h4>Show Now</h4>
+    </div>
+    </div>
+    <div id="top">
+    <i class="fa-solid fa-store"></i>
+    <div id="sec1">
+    <p>Be Pretty</p>
+</div>
+    </div>
+    </div>
+    <nav>
+            <div class="wrapper">
             <div id="logo">
                 <a href="index.html">
                     <img src="Be Pretty.png" alt="bepretty-logo">
