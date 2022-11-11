@@ -13,9 +13,9 @@
    display: flex;
 }
 #logo > img {
-   width: 150px;
-   
-  
+   width: 100px;
+   margin-top: -20px;
+  height:80px;
 }
 #logo{
   padding-top: 15px;
@@ -148,3 +148,4 @@ footer > p {
 #total_amount{
    display: flex;
 }
+

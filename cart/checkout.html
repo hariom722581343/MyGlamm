@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Nunito+Sans:wght@700&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./checkout.css">
+    <title>Check Out</title>
+   
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <div id="logo">
+                <img src="http://127.0.0.1:5500/Be%20Pretty.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main id="main_div">
+        <div id="heading">
+            <p>Checkout</p>
+        </div>
+        <div id="subdiv">
+            <div id="address">
+                <p><b>CHECK SHIPPING ADDRESS</b></p>
+                <div>
+
+                </div>
+                <hr id="hr1">
+                <div id="shipping_details">
+                    <div id="address_details">
+                        <div id="ip">
+                            <input type="text" placeholder="  Enter City Name : " id="city">
+                            <input type="text" placeholder="  Enter State Name : " id="state">
+                            <input type="number" placeholder="  Enter Pincode : " id="pin">
+                        </div>
+                        <div id="op">
+                            
+
+
+                        </div>
+                    </div>
+                    <button onclick="ckeckaddr()">Check</button>
+                </div>
+
+                <div id="expected_delivery">
+                    <span><i class="fas fa-truck"></i></span>
+                    <span>
+                        <p><b id="delivery">Expected Delivery Date</b></p>
+                    </span>
+                    <span>after three days...!</span>
+                </div>
+                <div>
+                    <div id="billing">
+                        <p><b>BILLING ADDRESS</b></p>
+                        <hr id="hr2">
+
+                        <div id="change_shipping">
+                            <span>
+                                <P>Same as Shipping Address</P>
+                            </span>
+                            <span><button>Change</button></span>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="bill">
+                <div>
+                    <div id="bill_heading">
+                        <p>Order Summary</p>
+                    </div>
+                    <div>
+                        <div id="order_summary">
+                            <ul>
+                                <li>Total Amount</li>
+                                <li>Shipping Charges</li>
+                                <li>Discount</li>
+                                
+                            </ul>
+                            <ul id="amount">
+                                <li  id="tamount" >$00.00</li>
+                                <li id="shipcharge" >$00.00</li>
+                                <li id="discount" >$00.00</li>
+                                
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <p id="promocode">Apply Promo Code</p>
+                    <div id="promo_input">
+                        <input type="text" placeholder="Apply promocode here..." id="apply_promo">
+                        <button onclick="promo()">APPLY</button>
+                    </div>
+                    <div id="q01"></div>
+                    <div id="order_summary">
+                        <ul>
+                            <li id="payble_amount">Amount Payable</li>
+                            <li>You Saved</li>
+                            <li>You will earn</li>
+                        </ul>
+                        <ul id="final_amount">
+                            <li id="payamount">$00.00</li>
+                            <li id="yousaved">$00.00</li>
+                            <li id="non">₹ 15</li>
+                        </ul>
+                    </div>
+
+                    <div id="proceed_payment">
+                        <Button>Proceed to payment</Button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <hr>
+        <img style="width:100px"  src="http://127.0.0.1:5500/Be%20Pretty.png" alt="">
+        <h1>Be Pretty</h1>
+    </footer>
+</body>
+<script src="./checkout.js"></script>
+</html>

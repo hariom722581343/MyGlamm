@@ -1,0 +1,279 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Inter', sans-serif;
+ font-family: 'Nunito Sans', sans-serif;
+ font-family: 'Roboto Mono', monospace;
+
+}
+
+#navbar {
+ max-width: 100%;
+ height: 71px;
+ background-color: white;
+ box-shadow: 5px 3px 2px rgb(221, 220, 220);
+ /* display: flex; */
+ /* position: relative; */
+ /* position: fixed;
+ top: 0;
+  */
+}
+
+#logo>img {
+ width: 150px;
+
+
+}
+
+#logo {
+ padding-top: 15px;
+ margin-left: 250px;
+}
+
+#main_div {
+ width: 75%;
+ margin: auto;
+ /* display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid red; */
+ margin-top: 15px;
+ /* position: absolute; */
+}
+
+#subdiv {
+ /* margin-top: 100px; */
+ width: 100%;
+ display: grid;
+ grid-template-columns: 57% 43%;
+ grid-gap: 4%;
+ /* border: 1px solid green; */
+}
+
+footer {
+ width: 75%;
+ margin: auto;
+ margin-top: 100px;
+}
+
+footer>p {
+ text-align: center;
+ margin-top: 15px;
+}
+
+/* #address {
+ border: 1px solid red;
+
+} */
+
+#bill {
+ background-color: #F5F5F5;
+}
+
+#heading>p {
+ text-align: center;
+ font-size: 25px;
+ margin-top: 70px;
+ margin-bottom: 20px;
+}
+
+hr {
+ border: 0.5px solid #e5e5e5;
+}
+
+#hr1 {
+ margin-top: 20px;
+}
+
+#heading {
+ font-weight: 600;
+
+}
+
+#shipping_details {
+ height: 200px;
+ /* border: 1px solid green; */
+ margin-left: 10px;
+ margin-top: 20px;
+}
+
+#address_details {
+ height: 85%;
+ display: grid;
+ grid-template-columns: 45% 45%;
+ gap: 10%;
+}
+
+#address {
+ margin-left: 10px;
+}
+
+#address_details+button {
+ padding: 12px 28px;
+ border: none;
+ background-color: black;
+ color: white;
+ font-weight: 600;
+
+}
+
+#expected_delivery {
+ display: flex;
+ margin-left: -5px;
+ margin-top: 30px;
+}
+
+#expected_delivery>span {
+ margin-left: 15px;
+}
+
+#billing {
+ margin-top: 40px;
+ margin-left: 10px;
+}
+
+#hr2 {
+ margin-top: 10px;
+}
+
+#change_shipping {
+ margin-top: 30px;
+ display: flex;
+}
+
+#change_shipping>span+span {
+ margin-left: 15px;
+}
+
+#change_shipping>span+span>button {
+ color: black;
+ background: transparent;
+ border: none;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+#delivery {
+ font-size: 12px;
+}
+#bill > div{
+ width: 90%;
+ margin: auto;
+ /* border: 1px solid red; */
+}
+
+#bill_heading {
+ margin-top: 16px;
+ margin-bottom: -18px;
+ font-size: 20px;
+}
+#tr{
+ margin-top: 10px;
+}
+#order_summary{
+ display: flex;
+ margin-top: 30px;
+ 
+}
+ul{
+ list-style-type: none;
+}
+li{
+ margin-top: 14px;
+}
+#amount{
+ margin-left: 50%;
+}
+#final_amount{
+ margin-left: 50%;
+}
+#promocode{
+ margin-top: 10px;
+ font-size: 15px;
+ font-weight: 600;
+}
+#promo_input{
+ display: flex;
+ margin-top: 12px;
+ margin-left: 5px;
+}
+input{
+ height: 55px;
+ width: 75%;
+ border: 1px solid #d4d3d3;
+}
+#promo_input > button {
+ padding-left: 30px;
+ padding-right: 30px;
+ font-size: 15px;
+ font-weight: 600;
+ border-radius: 3px;
+ border: none;
+ background-color: #757575;
+ color: white;
+ cursor: pointer;
+ 
+ 
+}
+#payble_amount{
+ /* font-size: 18px; */
+ font-weight: 600;
+}
+#proceed_payment{
+ width: 100%;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+}
+#proceed_payment > button{
+ width: 100%;
+ padding: 15px 0;
+ font-size: 15px;
+ color:white ;
+ font-weight: 600;
+ cursor: pointer;
+ border: none;
+ background-color: black;
+ text-transform: uppercase;
+ margin-bottom: 15px;
+}
+#apply_promo
+{
+ font-weight: 600;
+}
+#apply_promo::placeholder{
+ padding-left: 10px;
+ color:#EC407A ;
+ font-weight: 600;
+}
+
+#ip , #op
+{
+ height: 100%;
+ width: 100%;
+ padding-bottom: 2%;
+}
+
+#ip > input
+{
+ height: 100%;
+ width: 100%;
+ border: 2px solid black;
+ font-weight: bolder;
+ font-size: 11pt;
+ 
+}
+#ip
+{
+ display: grid;
+ grid-template-columns: 100%;
+ gap: 3.3%;
+}
+#op
+{
+ padding-top: 7%;
+ font-size: large;
+ font-weight: bolder;
+}

@@ -271,11 +271,6 @@
                 margin-top: 900px;
             }
 
-            :hover{
-                text-align: center;
-                cursor: pointer;
-            }
-
             h1{
                 border-bottom: solid red;
                 border-bottom-width: 10px;
