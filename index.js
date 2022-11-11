@@ -13,7 +13,7 @@ let slide=["https://files.myglamm.com/site-images/original/Homepage-desktop---19
 let i=0;
 let img=document.createElement("img");
 // img.src=slide[0];
-// slider.append(img)
+slider.append(img)
 let id=setInterval(function(){
  slider.innerHTML=null;
   if(i===4){
