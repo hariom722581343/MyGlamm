@@ -1,17 +1,20 @@
 #container{
     width:35%;
-    height:600px;
+    height:700px;
     margin: auto;
     /* border: 1px solid red; */
     margin-top: 150px;
     border-radius: 5px;
-     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     background-color: rgb(245, 185, 195);
 }
 #top{
-    height: 10%;
+    height: 15%;
     width:100%;
     /* border: 1px solid red; */
     margin-top: 70px;
+    background-color: rgb(197, 243, 105);
+    
 }
 
 
@@ -42,9 +45,9 @@
 #top>img{
     display: flex;
     margin: auto;
+    width:40%;
     
-    
-    height: 100px;
+    height: 110px;
     
 }
 #submit{

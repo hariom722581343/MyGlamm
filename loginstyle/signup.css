@@ -1,17 +1,21 @@
 #container{
     width:35%;
-    height:750px;
+    height:800px;
     margin: auto;
     /* border: 1px solid red; */
     margin-top: 150px;
     border-radius: 5px;
      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    background-color: rgb(245, 185, 195);
+     
 }
 #top{
-    height: 10%;
+    height: 14%;
     width:100%;
     /* border: 1px solid red; */
-    margin-top: 70px;
+    margin-top: 65px;
+    background-color: rgb(197, 243, 105);
+   
 }
 
 
@@ -26,6 +30,7 @@
     width: 60%;
     margin: auto;
     margin-top: 50px;
+   
 }
 #bottom>label{
     font-size:30px;
@@ -42,9 +47,10 @@
 #top>img{
     display: flex;
     margin: auto;
+    width:40%;
     
-    
-    height: 100px;
+    height: 110px;
+    margin-top: 20px;
     
 }
 #submit{
