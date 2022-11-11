@@ -1,0 +1,150 @@
+
+  
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#navbar{
+   max-width: 100%;
+   height: 71px;
+   background-color: white;
+   box-shadow: 5px 3px 2px rgb(221, 220, 220);
+   display: flex;
+}
+#logo > img {
+   width: 150px;
+   
+  
+}
+#logo{
+  padding-top: 15px;
+  margin-left: 250px;
+}
+#main_div{
+   width: 75%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* border: 1px solid red; */
+   margin-top: 15px;
+}
+#sub_div{
+   margin-top: 100px;
+  /* display: grid;
+  grid-template-columns: 100%; */
+   
+}
+#product_div{
+   display: grid;
+   grid-template-columns: 95%;
+   justify-content: center;
+}
+/* #product_div > div{
+   display: flex;
+} */
+#product_div >div > img {
+   width: 12%;
+}
+#sub_div > p {
+   font-size: 30px;
+   font-family: 'Inter', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+   word-spacing: -6px;
+   letter-spacing: -2px;
+}
+#sub_div > img{
+   margin-left: 25%;
+   margin-top: 25px;
+}
+footer{
+   width: 75%;
+   margin: auto;
+   margin-top: 100px;
+}
+footer > p {
+   text-align: center;
+   margin-top: 15px;
+}
+#checkout_btn{
+   width: 75%;
+   margin-left: 35%;
+   margin-bottom: 50px;
+   display: none;
+}
+#checkout_btn > button{
+   background-color: black;
+   color: white;
+   border: none;
+   padding: 15px 70px;
+   cursor: pointer;
+   font-size: 20px;
+}  
+
+.progress_div{
+   width: 20px;
+   height: 20px;
+   background-color: rgb(255, 254, 254);
+}
+#progress_bar{
+   display: flex;
+   margin-left: 4%;
+   /* position: relative; */
+}
+#progress_bar > div{
+   margin: auto;
+   /* margin-left: 75px; */
+}
+.progress_div {
+   /* margin: auto; */
+   border-radius: 50%;
+   border: 5px solid rgb(12, 12, 12);
+   display: inline-block;
+}
+#progress_bar > div > p{
+   font-size: 12px;
+   margin-bottom: 5px;
+   color: #9e9d9d;
+   display: inline-block;
+}
+
+#line{
+   width: 200px;
+   height: 7px;
+   background-color: rgb(229, 226, 226);
+   margin-top: 6px;
+   border-radius: 0px;
+   border: 1px solid rgb(248, 245, 240);
+   
+  
+   
+}
+
+#bag_heading{
+   /* display: flex; */
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   margin-top: 50px;
+   font-size: 14px;
+   display: none;
+}
+#total_value{
+   width: 100%;
+   height: 55px;
+   background-color: #EEEEEE;
+   display: none;
+   margin-top: 8px;
+}
+
+#total_value > p, #total_value > div{
+      margin: auto;
+}
+#total{
+   margin-right: 250px;
+}
+#total_amount{
+   display: flex;
+}
