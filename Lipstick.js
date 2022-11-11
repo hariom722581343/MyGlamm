@@ -3,10 +3,9 @@ import { navbar } from "./components/navbar.js";
 let Navbar=document.getElementById("nav");
 Navbar.innerHTML=navbar();
 
-// import { footer } from "./components/navbar.js";
-
-// let Navbar=document.getElementById("footer");
-// Navbar.innerHTML=footer();
+import { footer } from "./components/footer.js";
+let foot=document.getElementById("footer");
+foot.innerHTML=footer();
 
 const url="https://shrouded-hamlet-40263.herokuapp.com/api/Lipstick";
 
