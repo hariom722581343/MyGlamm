@@ -1,9 +1,9 @@
-const url="https://shrouded-hamlet-40263.herokuapp.com/api/Lipstick";
-
+let url="http://localhost:3000/cream";
 
 const getdata = async () => {
     let res = await fetch(url);
     let data = await res.json();
+    console.log(data);
     append(data);
 }
 getdata()
@@ -18,40 +18,28 @@ const append = (data) => {
         let card=document.createElement("div");
         card.onclick = () => {
             localStorage.setItem("clicked_item",JSON.stringify(ele));
-            window.location.href="./Lipstick2.html"
+            window.location.href="./shampoo2.html"
         }
-        
+
         let image=document.createElement("img");
         let name=document.createElement("h3");
         let description=document.createElement("p");
-        let shades=document.createElement("div");
         let price=document.createElement("h3");
         let span1=document.createElement("span");
         let span2=document.createElement("s");
         span2.setAttribute("class","price-space2")
         span1.setAttribute("class","price-space1")
-        shades.setAttribute("id","shades-icon")
         let symbol="₹"
 
-        let span3=document.createElement("img");
-        let span4=document.createElement("span");
-        span4.setAttribute("class","shades-count")
-        span3.src="https://files.myglamm.com/site-images/original/plus-icon.png";
-        span4.innerText=`${ele.shades} SHADES`;
-        
-
-        image.src=ele.image;
+        image.src=ele.img;
         name.innerText=ele.name;
         description.innerText=ele.description;
-        span1.innerText=`₹ ${ele.op}`
-        if(ele.AP!=""){
-            span2.innerText=`₹ ${ele.AP}`
-        }
-        
-        shades.append(span3,span4)
+        span1.innerText=`₹ ${ele.offerPrice}`;
+        span2.innerText=`₹ ${ele.actualPrice}`;
+
         price.append(span1,span2);
-        card.append(image,name,description,shades,price);
-        container.append(card);
+        card.append(image,name,description,price);
+        container.append(card);  
     })
 
 }
