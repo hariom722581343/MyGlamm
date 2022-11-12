@@ -16,16 +16,14 @@ body{
 
 
 #div1{
-    margin-top: 200px;
     width:30%;
-    position: sticky;
+    margin-top: 200px;
 }
 
 #div2{
-    margin-top: 200px;
     width:60%;
     padding-left:60px;
-    overflow: hidden;
+    margin-top: 200px;
 }
 
 #div2>p{

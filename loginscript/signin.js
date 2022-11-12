@@ -13,13 +13,13 @@ document.getElementById("submit").addEventListener("click", function(e){
     {
        alert("Login Success");
 
-    //    let current_user = user_record.filter((v) =>{
-    //     return v.email == email && v.password == password;
+       let current_user = user_record.filter((v) =>{
+        return v.email == email && v.password == password;
 
-    //    })[0];
+       })[0];
 
-    //    localStorage.setItem("name", current_user.name);
-    //    window.location.href = "index.html";
+       localStorage.setItem("name", current_user.name);
+       window.location.href = "index.html";
     }
     else{
         alert("Login Failed");

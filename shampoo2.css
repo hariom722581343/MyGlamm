@@ -6,9 +6,7 @@ body{
     width:75%;
     margin:auto;
     display:flex;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-    
-    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;    
 }
 
 #div1>img{
@@ -19,13 +17,13 @@ body{
 
 #div1{
     width:30%;
-    position: sticky;
+    margin-top: 200px;
 }
 
 #div2{
     width:60%;
     padding-left:60px;
-    overflow: hidden;
+    margin-top: 200px;
 }
 
 #div2>p{
