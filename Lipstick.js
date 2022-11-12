@@ -5,6 +5,7 @@ Navbar.innerHTML=navbar();
 import { footer } from "./components/footer.js";
 let foot=document.getElementById("footer");
 foot.innerHTML=footer();
+
 const url="https://shrouded-hamlet-40263.herokuapp.com/api/Lipstick";
 
 
