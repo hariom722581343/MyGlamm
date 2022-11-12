@@ -11,7 +11,7 @@ const navbar = () => {
     <div id="top">
     <i class="fa-solid fa-store"></i>
     <div id="sec1">
-    <a href="./Admin/AdminDashboard.html"><p>Be Pretty Admin Panel</p></a>
+    <a href="./AdminPanel/AdminDashboard.html"><p>Be Pretty Admin Panel</p></a>
 </div>
     </div>
     </div>
