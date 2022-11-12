@@ -1,3 +1,11 @@
+import { navbar } from "./components/navbar.js";
+let Navbar=document.getElementById("nav");
+Navbar.innerHTML=navbar();
+
+import { footer } from "./components/footer.js";
+let foot=document.getElementById("footer");
+foot.innerHTML=footer();
+
 let url="http://localhost:3000/shampoo";
 
 const getdata = async () => {

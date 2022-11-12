@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0px;
   padding: 0px;
   font-family:Arial, Helvetica, sans-serif;
@@ -26,6 +26,10 @@ a{
 #sec1>h4{
   color:#a33333;
 }
+
+#sec1 > a >p{
+  color:grey;
+}
 #sec1{
   display: flex;
   gap: 20px;
@@ -34,24 +38,17 @@ a{
 #nav {
   position: fixed;
   z-index: 99;
-  height: 130px;
+  height: 140px;
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 5px;
   background-color: white;
 }
 
-#logo {
-  display: flex;
-  width: 5%;
-  height: 5px;
-}
-#logo > a > img {
-  display: block;
-  width: 65%;
-}
 
 nav{
   width: 100%;
   margin: auto;
+  margin-top: -3%;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -59,8 +56,9 @@ nav{
 
 nav .wrapper {
   position: relative;
-  padding: 0px 10px;
+  padding: 0px 25px;
   height: 100px;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -169,4 +167,38 @@ nav input {
 .body-text div {
   font-size: 45px;
   font-weight: 600;
+}
+
+#second_nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+#img{
+  display: flex;
+}
+
+#img > img{
+  padding-left: 15px;
+  width: 100%;
+  height: 80px;
+}
+
+#img >div > input{
+  height: 40px;
+  width: 700px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+#img > div{
+  margin-top: 2%;
+}
+
+#user{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+  margin-top: 2%;
+  font-size: 20px;
 }

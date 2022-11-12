@@ -12,17 +12,36 @@ const navbar = () => {
     <div id="top">
     <i class="fa-solid fa-store"></i>
     <div id="sec1">
-    <p>Be Pretty</p>
+    <a href="./AdminDashboard.html"><p>Be PrettyAdmin</p></a>
 </div>
     </div>
     </div>
+
+
+
+
+
+
+    <div id="second_nav">
+    <div id="img">
+    <img src="Be Pretty.png" />
+    <div>
+    <input type="text" placeholder="Find Lipstick, Eyeliner, Makeup Tutorial, etc" /> 
+    </div>
+    </div>
+    <div id="user">
+    <a href="./cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    <a href="signin.html"><i class="fa-regular fa-user"></i></a>
+    </div>
+    </div>
+
+
+
+
+
+
     <nav>
-            <div class="wrapper">
-            <div id="logo">
-                <a href="index.html">
-                    <img src="Be Pretty.png" alt="bepretty-logo">
-                </a>
-            </div>
+        <div class="wrapper">
         <input type="radio" name="slider" id="menu-btn">
         <input type="radio" name="slider" id="close-btn">
         <ul class="nav-links">
@@ -228,9 +247,9 @@ const navbar = () => {
                 </div>
             </li>
             <li>
-            <a href="#" class="desktop-item">MYGLAMM</a>
+            <a href="#" class="desktop-item">BEPRETTY</a>
             <input type="checkbox" id="showMega">
-            <label for="showMega" class="mobile-item">MYGLAMM</label>
+            <label for="showMega" class="mobile-item">BEPRETTY</label>
             <div class="mega-box">
                 <div class="content">
                     <div class="row">

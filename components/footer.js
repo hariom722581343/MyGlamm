@@ -4,7 +4,7 @@ const footer = () =>{
         <div>
             <div>
             <p class="heading">LIPS</p>
-            <p>Lipstick</p>; hh
+            <p>Lipstick</p>
             <p>Crayon Lipstick</p>
             <p>Matte Lipstick</p>
             <p>Hi-Shine Lipstick</p>
