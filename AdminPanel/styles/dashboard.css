@@ -4,8 +4,10 @@
     /* border: 1px solid yellowgreen; */
     margin: 75px 0px 0px 270px;
     height: 100%;
+    /* display: flex; */
     font-family: Arial, Helvetica, sans-serif;
   }
+
   #heading{
     border: 1px solid grey;
     border-radius: 10px 10px 10px 10px;
@@ -23,9 +25,20 @@
     
     background-color: #f1f5f8;
   }
+  #Ng{
+    /* border: 1px solid yellowgreen; */
+    /* margin: 75px 0px 0px 270px; */
+    /* height: 100%; */
+    display: flex;
+  }
+  #mychart{
+    
+    border: 1px solid rgb(152, 6, 219);
+  }
 
 #data_div{
     border: 1px solid blue;
+    height: 150px;
     /* color: #3b76ef; */
     background-color: #3b76ef;
     border-radius: 20px;
@@ -34,7 +47,8 @@
 #data_div > h1{
   background-color: #3b76ef;
   border-radius: 20px;
-  padding: 10px;
+  padding: 30px;
+  /* gap: 50; */
   color: white;
 }
 #data_div span{

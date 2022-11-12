@@ -1,0 +1,96 @@
+{
+  "shampoo": [
+    {
+      "id": "1668101625352Onion Shampoo",
+      "img": "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+      "name": "Onion Shampoo",
+      "description": "For Hair Fall Control",
+      "offerPrice": 195,
+      "actualPrice": 250
+    },
+    {
+      "id": "1668101767025Coconut Shampoo ",
+      "img": "https://files.myglamm.com/site-images/800x800/SHP-(1).jpg",
+      "name": "Coconut Shampoo ",
+      "description": "Anti-Dandruff Shampoo",
+      "offerPrice": 280,
+      "actualPrice": 399
+    },
+    {
+      "id": "1668101850264All Fruits Shampoo",
+      "img": "https://files.myglamm.com/site-images/800x800/SF--Hair-Fall-Control-2.jpg",
+      "name": "All Fruits Shampoo",
+      "description": "Hair Fall & Anti-Dandruff Shampoo",
+      "offerPrice": 480,
+      "actualPrice": 598
+    },
+    {
+      "id": "1668104012313Mixed Fruit Shampoo",
+      "img": "https://files.myglamm.com/site-images/200x200/Watermelon---Raspberry-Face-Wash-1_1.jpg",
+      "name": "Mixed Fruit Shampoo",
+      "description": "Hair Fall & Anti-Dandruff Shampoo",
+      "offerPrice": "333",
+      "actualPrice": 333
+    },
+    {
+      "id": "1668258136542SunShine",
+      "img": "https://rukminim1.flixcart.com/image/416/416/jjylw280/conditioner/d/m/n/887-21-suave-essentials-everlasting-sunshine-shampoo-and-original-imaf7f8nte7ufyah.jpeg?q=70",
+      "name": "SunShine",
+      "description": "sun is raising you can also raising",
+      "category": "Shampoo",
+      "offerPrice": "5000",
+      "actualPrice": 2000
+    }
+  ],
+  "facewash": [
+    {
+      "id": "1668110002857Super Food ",
+      "img": "https://files.myglamm.com/site-images/800x800/FCCD-(1)_1.jpg",
+      "name": "Super Food ",
+      "description": "Fashwash",
+      "category": "FaceWash",
+      "offerPrice": 333,
+      "actualPrice": 399
+    },
+    {
+      "id": "1668203502878Devendra Singh",
+      "img": "https://files.myglamm.com/site-images/800x800/Flirtini_6.jpg",
+      "name": "Devendra Singh",
+      "description": "Precision Perfect Matte Slimstick",
+      "category": "FaceWash",
+      "offerPrice": 32,
+      "actualPrice": 33
+    },
+    {
+      "id": "1668280934670Devendra Singh",
+      "img": "",
+      "name": "Devendra Singh",
+      "description": "",
+      "category": "FaceWash",
+      "offerPrice": 0,
+      "actualPrice": 0
+    }
+  ],
+  "lipstick": [
+    {
+      "id": "1668109075699LIT Creamy Lipstick",
+      "img": "https://files.myglamm.com/site-images/800x800/Flirtini_6.jpg",
+      "name": "LIT Creamy Lipstick",
+      "description": "Precision Perfect Matte Slimstick",
+      "category": "Lipstick",
+      "offerPrice": "333",
+      "actualPrice": 555
+    }
+  ],
+  "cream": [
+    {
+      "id": "1668109391743Youthfull Hydrated Cream",
+      "img": "https://files.myglamm.com/site-images/800x800/Eye-Cream-swatch.jpg",
+      "name": "Youthfull Hydrated Cream",
+      "description": "Youthfull Hydrated Cream with Water Bank Technology",
+      "category": "Cream",
+      "offerPrice": "555",
+      "actualPrice": 699
+    }
+  ]
+}

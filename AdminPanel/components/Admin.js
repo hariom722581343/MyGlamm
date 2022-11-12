@@ -1,6 +1,6 @@
 const admin = () => {
   return `<div id="Anav">
-    <img class="logo" src="./scripts/Picsart_3.png" alt="" />
+    <a href="../index.html" ><img class="logo" src="./scripts/Picsart_2.png" alt=""></a>
 
   <input type="text" id="Asearch" placeholder="  Search" /></input>
   <!-- search box -->

@@ -12,6 +12,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- -=-=-=-=-=-=chart-=--=-=-= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -51,13 +53,23 @@
       <div id="heading">
         <span>☰ Dashboard</span>
         </div>
-        <div id="data_div">
-          <h1>Total no. of Listed Product : <span id="total_products">0</span></h1>
+        
+        <div id="Ng">
+          
+          <!-- <div id="data_div2">
+            <h1>Total no. of product :<span id="total"></span></h1>
+          </div> -->
+          
+  
+          
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+            <div id="data_div">
+              <h1>Total no. of Listed Product : <span id="total_products">0</span></h1>
+            </div>
         </div>
 
-        <!-- <div id="data_div2">
-          <h1>Total no. of product :<span id="total"></span></h1>
-        </div> -->
+
       </div>
     </div>
   </body>

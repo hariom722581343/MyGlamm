@@ -43,7 +43,7 @@ let addProducts = async () => {
 
 function Admin_name() {
   let A_nam = document.getElementById("admin_name");
-  A_nam.innerHTML = "Devendra Singh <span>UI / UX DESIGNER</span>";
+  A_nam.innerHTML = "Devendra Singh <span>Admin</span>";
 }
 
 Admin_name();

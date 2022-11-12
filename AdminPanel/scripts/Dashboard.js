@@ -31,11 +31,39 @@ const getProducts = async () => {
     Total_Products += +Ldata.length;
     Total_Products += +Cdata.length;
 
+    let Sam = +Sdata.length;
+    let Fac = +Fdata.length;
+    let Lip = +Ldata.length;
+    let Crm = +Cdata.length;
+
     // appendProducts(data);
     // console.log("Data :", Sdata.length);
 
     let A_nam = document.getElementById("total_products");
     A_nam.innerText = Total_Products;
+
+    var xValues = ["Lipstick", "Shampoo", "Facewash", "Creams"];
+    var yValues = [Lip, Sam, Fac, Crm];
+    var barColors = ["#f71b55", "#11eeea", "#21ec80", "#f7d4cb"];
+
+    new Chart("myChart", {
+      type: "pie",
+      data: {
+        labels: xValues,
+        datasets: [
+          {
+            backgroundColor: barColors,
+            data: yValues,
+          },
+        ],
+      },
+      options: {
+        title: {
+          display: true,
+          text: "",
+        },
+      },
+    });
 
     // console.log("Total Registered Products :", Total_Products);
   } catch (err) {

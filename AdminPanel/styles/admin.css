@@ -20,6 +20,10 @@
     position: fixed;
     z-index: 200;
 }
+#Anav a{
+    
+    background-color: #dde5eb;
+}
 .logo{
     /* border: 1px solid blue; */
     background-color: #dde5eb;
