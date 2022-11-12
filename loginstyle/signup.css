@@ -6,7 +6,7 @@
     margin-top: 150px;
     border-radius: 5px;
      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
-    background-color: rgb(245, 185, 195);
+    /* background-color: rgb(245, 185, 195); */
      
 }
 #top{
@@ -14,8 +14,9 @@
     width:100%;
     /* border: 1px solid red; */
     margin-top: 65px;
-    background-color: rgb(197, 243, 105);
+    /* background-color: rgb(197, 243, 105); */
    
+    
 }
 
 
