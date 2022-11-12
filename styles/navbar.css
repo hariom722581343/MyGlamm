@@ -1,0 +1,253 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+#first_nav{
+  display: flex;
+  height: 12px;
+  justify-content: space-between;
+  background-color: #fee8e8;
+  padding: 10px;
+}
+
+#top{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#top > i{
+  color: #ff9797;
+}
+#sec1>h4{
+  color:#a33333;
+}
+
+#sec1 > a >p{
+  color:grey;
+}
+#sec1{
+  display: flex;
+  gap: 20px;
+
+}
+#nav {
+  position: fixed;
+  z-index: 99;
+  height: 140px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 5px;
+  background-color: white;
+}
+
+
+nav{
+  /* border: 1px solid red; */
+
+  width: 100%;
+  margin: auto;
+  margin-top: -3%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+nav .wrapper {
+  position: relative;
+  padding: 0px 25px;
+  height: 110px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+.wrapper{
+  /* border: 1px solid red; */
+  height: 50px;
+  padding-left: 200px;
+}
+.wrapper .nav-links {
+  display: inline-flex;
+}
+.nav-links li {
+  list-style: none;
+  padding-left: 50px;
+}
+.nav-links li a {
+  color: #1f1f1f;
+  text-decoration: none;
+  font-size: 14px;
+  /* font-weight: 500; */
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.nav-links li a:hover {
+  text-decoration: underline 3px solid  #fa2879;
+}
+.nav-links .mobile-item {
+  display: none;
+  
+}
+.nav-links li:hover .drop-menu,
+.nav-links li:hover .mega-box {
+  transition: all 0.4s ease;
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+  background-color: white;
+}
+.mega-box {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 5px 00px;
+  top: 80px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+}
+.mega-box .content{
+  color: #1f1f1f;
+  padding: 20px 20px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+.mega-box .content .row {
+  width: calc(25% - 30px);
+  line-height: 30px;
+}
+.content .row header {
+  color: #fa287194 ;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: justify;
+}
+.content .row .mega-links {
+  margin-left: -40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.09);
+}
+.row .mega-links li {
+  padding: 0 20px;
+}
+.row .mega-links li a {
+  padding: 0px;
+  padding: 0 20px;
+  color: black;
+  font-size: 14px;
+  text-align: justify;
+  display: block;
+}
+.row .mega-links li a:hover {
+  text-decoration: underline  3px solid #fa2879;
+}
+.wrapper .btn {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.wrapper .btn.close-btn {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+nav input {
+  display: none;
+}
+.body-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 0 30px;
+}
+.body-text div {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+#second_nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+#img{
+  display: flex;
+  /* width: 100px; */
+  /* border-bottom: 1px solid grey; */
+  padding-bottom: 5px;
+}
+
+#img > img{
+  padding-left: 90px;
+  padding-right: 90px;
+  width: 100%;
+  height: 60px;
+}
+
+/* #img >div > input{
+  height: 36px;
+  width: 700px;
+  padding-left: 10px;
+  font-size: 15px;
+  border-radius: 20px; */
+/* } */
+#Search_inp{
+  display: flex;
+  /* border: 1px solid red; */
+}
+#Asearch{
+  border: 1px solid grey;
+  margin: auto;
+  margin-left: 50px;
+
+  /* margin-right: 0%; */
+  height: 38px;
+  width: 500px;
+  background-color:#dde5eb;
+  border-radius: 20px 0px 0px 20px;
+  font-size: large;
+  padding-left: 18px;
+
+}
+#Asearch:hover,#Asearch_button:hover{
+  background-color: whitesmoke;
+}
+#Asearch_button{
+  border: 1px solid grey;
+  background-color:#dee2e6;
+  margin: auto;
+  width: 100px;
+  height: 40px;
+  border-radius: 0px 20px 20px 0px;
+  margin-left: 0px;
+  font-size: large;
+}
+#img > div{
+  margin-top: 2%;
+}
+
+#user{
+  display: flex;
+  /* justify-content: spa; */
+  padding-left: 40px;
+  width: 20%;
+  margin-top: 2%;
+  font-size: 20px;
+}
+#user a{
+  padding-left: 40px;
+  padding-right: 40px;
+}
