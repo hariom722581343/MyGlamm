@@ -39,7 +39,7 @@ a{
 #nav {
   position: fixed;
   z-index: 99;
-  height: 140px;
+  height: 130px;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 5px;
   background-color: white;
@@ -185,8 +185,6 @@ nav input {
 
 #img{
   display: flex;
-  /* width: 100px; */
-  /* border-bottom: 1px solid grey; */
   padding-bottom: 5px;
 }
 
@@ -197,23 +195,13 @@ nav input {
   height: 60px;
 }
 
-/* #img >div > input{
-  height: 36px;
-  width: 700px;
-  padding-left: 10px;
-  font-size: 15px;
-  border-radius: 20px; */
-/* } */
 #Search_inp{
   display: flex;
-  /* border: 1px solid red; */
 }
 #Asearch{
   border: 1px solid grey;
   margin: auto;
   margin-left: 50px;
-
-  /* margin-right: 0%; */
   height: 38px;
   width: 500px;
   background-color:#dde5eb;
@@ -241,7 +229,6 @@ nav input {
 
 #user{
   display: flex;
-  /* justify-content: spa; */
   padding-left: 40px;
   width: 20%;
   margin-top: 2%;
@@ -250,4 +237,5 @@ nav input {
 #user a{
   padding-left: 40px;
   padding-right: 40px;
+  cursor: pointer;
 }
