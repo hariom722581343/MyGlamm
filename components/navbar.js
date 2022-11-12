@@ -42,35 +42,35 @@ const navbar = () => {
                             <header>LIPS</header>
                             <ul class="mega-links">
                             <li><a href="Lipstick.html">Lipstick</a></li>
-                            <li><a href="#">Crayon Lipstick</a></li>
-                            <li><a href="#">Liquid Lipstick</a></li>
-                            <li><a href="#">Hi-Shine Lipstick</a></li>
-                            <li><a href="#">Matte Lipstick</a></li>
-                            <li><a href="#">Lip Gloss</a></li>
-                            <li><a href="#">Lip Liner</a></li>
-                            <li><a href="#">Lip Balm</a></li>
-                            <li><a href="#">Lip Glitter</a></li>
-                            <li><a href="#">Lip Stain</a></li>
-                            <li><a href="#">Lipstick Set</a></li>
-                            <li><a href="#">Lip Kit</a></li>
-                            <li><a href="#">Find Your Lipstick</a></li>
+                            <li><a href="Lipstick.html">Crayon Lipstick</a></li>
+                            <li><a href="Lipstick.html">Liquid Lipstick</a></li>
+                            <li><a href="Lipstick.html">Hi-Shine Lipstick</a></li>
+                            <li><a href="Lipstick.html">Matte Lipstick</a></li>
+                            <li><a href="Lipstick.html">Lip Gloss</a></li>
+                            <li><a href="Lipstick.html">Lip Liner</a></li>
+                            <li><a href="Lipstick.html">Lip Balm</a></li>
+                            <li><a href="Lipstick.html">Lip Glitter</a></li>
+                            <li><a href="Lipstick.html">Lip Stain</a></li>
+                            <li><a href="Lipstick.html">Lipstick Set</a></li>
+                            <li><a href="Lipstick.html">Lip Kit</a></li>
+                            <li><a href="Lipstick.html">Find Your Lipstick</a></li>
                             </ul>
                         </div>    
                         <div class="row">
                             <header>FACE</header>
                             <ul class="mega-links">
-                            <li><a href="#">Fixing Powder</a></li>
-                            <li><a href="#">Primer</a></li>
-                            <li><a href="#">Concealer</a></li>
-                            <li><a href="#">Foundation</a></li>
-                            <li><a href="#">Compact Powder</a></li>
-                            <li><a href="#">Setting Powder</a></li>
-                            <li><a href="#">Banana Powder</a></li>
-                            <li><a href="#">sindoor</a></li>
-                            <li><a href="#">Highligher</a></li>
-                            <li><a href="#">Blush</a></li>
-                            <li><a href="#">Bronzer</a></li>
-                            <li><a href="#">Cheek Stain</a></li>
+                            <li><a href="facewash.html">Face wash</a></li>
+                            <li><a href="facewash.html">Primer</a></li>
+                            <li><a href="facewash.html">Concealer</a></li>
+                            <li><a href="facewash.html">Foundation</a></li>
+                            <li><a href="facewash.html">Compact Powder</a></li>
+                            <li><a href="facewash.html">Setting Powder</a></li>
+                            <li><a href="facewash.html">Banana Powder</a></li>
+                            <li><a href="facewash.html">sindoor</a></li>
+                            <li><a href="facewash.html">Highligher</a></li>
+                            <li><a href="facewash.html">Blush</a></li>
+                            <li><a href="facewash.html">Bronzer</a></li>
+                            <li><a href="facewash.html">Cheek Stain</a></li>
                             </ul>
                         </div>
                         <div class="row">
@@ -118,12 +118,12 @@ const navbar = () => {
                         <div class="row">
                             <header>HAIR CARE</header>
                             <ul class="mega-links">
-                            <li><a href="#">Shampoo</a></li>
-                            <li><a href="#">Conditioner</a></li>
-                            <li><a href="#">Hair Oil</a></li>
-                            <li><a href="#">Serum</a></li>
-                            <li><a href="#">Hair Mask Spray</a></li>
-                            <li><a href="#">Combos</a></li>
+                            <li><a href="shampoo.html">Shampoo</a></li>
+                            <li><a href="shampoo.html">Conditioner</a></li>
+                            <li><a href="shampoo.html">Hair Oil</a></li>
+                            <li><a href="shampoo.html">Serum</a></li>
+                            <li><a href="shampoo.html">Hair Mask Spray</a></li>
+                            <li><a href="shampoo.html">Combos</a></li>
                             </ul>
                         </div>           
                     </div>
@@ -137,13 +137,13 @@ const navbar = () => {
                     <div class="content">
                         <div class="row">
                             <ul class="mega-links">
-                            <li><a href="#">Moisturizer</a></li>
-                            <li><a href="#">Night Cream</a></li>
-                            <li><a href="#">Eye Cream</a></li>
-                            <li><a href="#">Body Lotion</a></li>
-                            <li><a href="#">Serum</a></li>
-                            <li><a href="#">Sunscreen</a></li>
-                            <li><a href="#">Skincare Kits</a></li>
+                            <li><a href="cream.html">Moisturizer</a></li>
+                            <li><a href="cream.html">Night Cream</a></li>
+                            <li><a href="cream.html">Eye Cream</a></li>
+                            <li><a href="cream.html">Body Lotion</a></li>
+                            <li><a href="cream.html">Serum</a></li>
+                            <li><a href="cream.html">Sunscreen</a></li>
+                            <li><a href="cream.html">Skincare Kits</a></li>
                             </ul>
                             <br></br>
                             <header>CLEANSING PRODUCTS</header>
