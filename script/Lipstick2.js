@@ -83,7 +83,7 @@ let divbutton = document.createElement("div");
 let span = document.createElement("span");
 span.innerText = "ADD TO BAG";
 let bagimg = document.createElement("img");
-bagimg.src = "bag.png";
+bagimg.src = "./Logo and Icon/bag.png";
 bagimg.setAttribute("id", "bagimg");
 divbutton.setAttribute("id", "add_to_bag_div");
 divbutton.append(bagimg, span);

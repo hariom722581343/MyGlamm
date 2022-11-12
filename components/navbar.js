@@ -21,17 +21,14 @@ const navbar = () => {
     <img src="./Logo and Icon/Be Pretty 2.png" />
     <div id="Search_inp">
     <input type="text" id="Asearch"  placeholder="Search ...Lipstick, Eyeliner, Makeup Tutorial, etc" />
-    </input>
-    <!-- search box -->
-
-    <input type="submit" id="Asearch_button"> </input>
+    <input type="submit" id="Asearch_button"></input>
 
     </div>
     </div>
     <div id="user">
-    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
     |
-    <a href="signin.html"><i class="fa-regular fa-user"></i></a>
+    <a href="./signin.html"><i class="fa-regular fa-user"></i></a>
     </div>
     </div>
 
