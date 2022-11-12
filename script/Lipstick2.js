@@ -70,7 +70,7 @@ const shadechange = (ele) => {
 
 /*---------->add to bag button<---------------- */
 
-postdata = {
+let postdata ={
   image: clicked_item.image,
   description: clicked_item.name,
   price: clicked_item.op,

@@ -29,9 +29,9 @@ const navbar = () => {
     </div>
     </div>
     <div id="user">
-    <a href="./Login and Cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
     |
-    <a href="./Login and Cart/signin.html"><i class="fa-regular fa-user"></i></a>
+    <a href="signin.html"><i class="fa-regular fa-user"></i></a>
     </div>
     </div>
 

@@ -31,6 +31,15 @@
       "description": "Hair Fall & Anti-Dandruff Shampoo",
       "offerPrice": "333",
       "actualPrice": 333
+    },
+    {
+      "id": "1668258136542SunShine",
+      "img": "https://rukminim1.flixcart.com/image/416/416/jjylw280/conditioner/d/m/n/887-21-suave-essentials-everlasting-sunshine-shampoo-and-original-imaf7f8nte7ufyah.jpeg?q=70",
+      "name": "SunShine",
+      "description": "sun is raising you can also raising",
+      "category": "Shampoo",
+      "offerPrice": "5000",
+      "actualPrice": 2000
     }
   ],
   "facewash": [

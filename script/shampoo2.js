@@ -38,7 +38,7 @@ document.getElementById("div2").append(Name, description, price, mrp);
 
 /*---------->add to bag button<---------------- */
 
-postdata = {
+let postdata = {
   image: clicked_item.img,
   description: clicked_item.name,
   price: clicked_item.actualPrice,
