@@ -1,4 +1,4 @@
-<<<<<<< HEAD:styles/shampoo.css
+
 /* font-family: 'Merriweather', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive; */
@@ -115,12 +115,12 @@ th,td{
 
 #div3>div{
     margin-bottom: 50px;
-=======
+
 /* font-family: 'Merriweather', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive; */
 
-
+}
 
 body > h1{
     text-align: center;
@@ -231,5 +231,5 @@ th,td{
 
 #div3>div{
     margin-bottom: 50px;
->>>>>>> d978b7fe2ba4b3c652820d06610213c8a3d861d3:shampoo.css
+
 }
