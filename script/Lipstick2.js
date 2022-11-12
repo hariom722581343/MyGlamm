@@ -28,7 +28,7 @@ mrp.innerText = "(MRP incl. of all taxes)";
 let icondiv = document.createElement("div");
 let iconimg = document.createElement("img");
 
-Name.innerText = `MYGLAMM ${clicked_item.name}`;
+Name.innerText = `BEPRETTY ${clicked_item.name}`;
 description.innerText = clicked_item.description;
 rating.innerText = `${clicked_item.rating}`;
 iconimg.src = "icon.png";
