@@ -1,6 +1,5 @@
-
 const navbar = () => {
-    return `
+  return `
     <div id="first_nav">
     <div id="top">
     <i class="fa-solid fa-gift"></i>
@@ -12,34 +11,31 @@ const navbar = () => {
     <div id="top">
     <i class="fa-solid fa-store"></i>
     <div id="sec1">
-    <a href="./AdminDashboard.html"><p>Be PrettyAdmin</p></a>
+    <a href="./Admin/AdminDashboard.html"><p>Be Pretty Admin Panel</p></a>
 </div>
     </div>
     </div>
 
-
-
-
-
-
     <div id="second_nav">
     <div id="img">
-    <img src="Be Pretty.png" />
-    <div>
-    <input type="text" placeholder="Find Lipstick, Eyeliner, Makeup Tutorial, etc" /> 
+    <img src="./Logo and Icon/Be Pretty 2.png" />
+    <div id="Search_inp">
+    <input type="text" id="Asearch"  placeholder="Search ...Lipstick, Eyeliner, Makeup Tutorial, etc" />
+    </input>
+    <!-- search box -->
+
+    <input type="submit" id="Asearch_button"> </input>
+
     </div>
     </div>
     <div id="user">
-    <a href="./cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-    <a href="signin.html"><i class="fa-regular fa-user"></i></a>
+    <a href="./Login and Cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    |
+    <a href="./Login and Cart/signin.html"><i class="fa-regular fa-user"></i></a>
     </div>
     </div>
 
-
-
-
-
-
+        <hr id="hr_line">
     <nav>
         <div class="wrapper">
         <input type="radio" name="slider" id="menu-btn">
@@ -47,7 +43,7 @@ const navbar = () => {
         <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             <li>
-                <a href="index.html" class="desktop-item">HOME</a>
+                <a href="./index.html" class="desktop-item">HOME</a>
                 <input type="checkbox" id="showMega">
                 <label for="showMega" class="mobile-item">HOME</label>
             </li>
@@ -60,36 +56,36 @@ const navbar = () => {
                         <div class="row">
                             <header>LIPS</header>
                             <ul class="mega-links">
-                            <li><a href="Lipstick.html">Lipstick</a></li>
-                            <li><a href="Lipstick.html">Crayon Lipstick</a></li>
-                            <li><a href="Lipstick.html">Liquid Lipstick</a></li>
-                            <li><a href="Lipstick.html">Hi-Shine Lipstick</a></li>
-                            <li><a href="Lipstick.html">Matte Lipstick</a></li>
-                            <li><a href="Lipstick.html">Lip Gloss</a></li>
-                            <li><a href="Lipstick.html">Lip Liner</a></li>
-                            <li><a href="Lipstick.html">Lip Balm</a></li>
-                            <li><a href="Lipstick.html">Lip Glitter</a></li>
-                            <li><a href="Lipstick.html">Lip Stain</a></li>
-                            <li><a href="Lipstick.html">Lipstick Set</a></li>
-                            <li><a href="Lipstick.html">Lip Kit</a></li>
-                            <li><a href="Lipstick.html">Find Your Lipstick</a></li>
+                            <li><a href="./Lipstick.html">Lipstick</a></li>
+                            <li><a href="./Lipstick.html">Crayon Lipstick</a></li>
+                            <li><a href="./Lipstick.html">Liquid Lipstick</a></li>
+                            <li><a href="./Lipstick.html">Hi-Shine Lipstick</a></li>
+                            <li><a href="./Lipstick.html">Matte Lipstick</a></li>
+                            <li><a href="./Lipstick.html">Lip Gloss</a></li>
+                            <li><a href="./Lipstick.html">Lip Liner</a></li>
+                            <li><a href="./Lipstick.html">Lip Balm</a></li>
+                            <li><a href="./Lipstick.html">Lip Glitter</a></li>
+                            <li><a href="./Lipstick.html">Lip Stain</a></li>
+                            <li><a href="./Lipstick.html">Lipstick Set</a></li>
+                            <li><a href="./Lipstick.html">Lip Kit</a></li>
+                            <li><a href="./Lipstick.html">Find Your Lipstick</a></li>
                             </ul>
                         </div>    
                         <div class="row">
                             <header>FACE</header>
                             <ul class="mega-links">
-                            <li><a href="facewash.html">Face wash</a></li>
-                            <li><a href="facewash.html">Primer</a></li>
-                            <li><a href="facewash.html">Concealer</a></li>
-                            <li><a href="facewash.html">Foundation</a></li>
-                            <li><a href="facewash.html">Compact Powder</a></li>
-                            <li><a href="facewash.html">Setting Powder</a></li>
-                            <li><a href="facewash.html">Banana Powder</a></li>
-                            <li><a href="facewash.html">sindoor</a></li>
-                            <li><a href="facewash.html">Highligher</a></li>
-                            <li><a href="facewash.html">Blush</a></li>
-                            <li><a href="facewash.html">Bronzer</a></li>
-                            <li><a href="facewash.html">Cheek Stain</a></li>
+                            <li><a href="./facewash.html">Face wash</a></li>
+                            <li><a href="./facewash.html">Primer</a></li>
+                            <li><a href="./facewash.html">Concealer</a></li>
+                            <li><a href="./facewash.html">Foundation</a></li>
+                            <li><a href="./facewash.html">Compact Powder</a></li>
+                            <li><a href="./facewash.html">Setting Powder</a></li>
+                            <li><a href="./facewash.html">Banana Powder</a></li>
+                            <li><a href="./facewash.html">sindoor</a></li>
+                            <li><a href="./facewash.html">Highligher</a></li>
+                            <li><a href="./facewash.html">Blush</a></li>
+                            <li><a href="./facewash.html">Bronzer</a></li>
+                            <li><a href="./facewash.html">Cheek Stain</a></li>
                             </ul>
                         </div>
                         <div class="row">
@@ -137,12 +133,12 @@ const navbar = () => {
                         <div class="row">
                             <header>HAIR CARE</header>
                             <ul class="mega-links">
-                            <li><a href="shampoo.html">Shampoo</a></li>
-                            <li><a href="shampoo.html">Conditioner</a></li>
-                            <li><a href="shampoo.html">Hair Oil</a></li>
-                            <li><a href="shampoo.html">Serum</a></li>
-                            <li><a href="shampoo.html">Hair Mask Spray</a></li>
-                            <li><a href="shampoo.html">Combos</a></li>
+                            <li><a href="./shampoo.html">Shampoo</a></li>
+                            <li><a href="./shampoo.html">Conditioner</a></li>
+                            <li><a href="./shampoo.html">Hair Oil</a></li>
+                            <li><a href="./shampoo.html">Serum</a></li>
+                            <li><a href="./shampoo.html">Hair Mask Spray</a></li>
+                            <li><a href="./shampoo.html">Combos</a></li>
                             </ul>
                         </div>           
                     </div>
@@ -156,13 +152,13 @@ const navbar = () => {
                     <div class="content">
                         <div class="row">
                             <ul class="mega-links">
-                            <li><a href="cream.html">Moisturizer</a></li>
-                            <li><a href="cream.html">Night Cream</a></li>
-                            <li><a href="cream.html">Eye Cream</a></li>
-                            <li><a href="cream.html">Body Lotion</a></li>
-                            <li><a href="cream.html">Serum</a></li>
-                            <li><a href="cream.html">Sunscreen</a></li>
-                            <li><a href="cream.html">Skincare Kits</a></li>
+                            <li><a href="./cream.html">Moisturizer</a></li>
+                            <li><a href="./cream.html">Night Cream</a></li>
+                            <li><a href="./cream.html">Eye Cream</a></li>
+                            <li><a href="./cream.html">Body Lotion</a></li>
+                            <li><a href="./cream.html">Serum</a></li>
+                            <li><a href="./cream.html">Sunscreen</a></li>
+                            <li><a href="./cream.html">Skincare Kits</a></li>
                             </ul>
                             <br></br>
                             <header>CLEANSING PRODUCTS</header>
@@ -267,8 +263,7 @@ const navbar = () => {
             </div>
         </li>
         </ul>
-    </div>`
-        
-}
+    </div>`;
+};
 
-export { navbar }
+export { navbar };

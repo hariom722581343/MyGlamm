@@ -3,6 +3,12 @@
     margin: auto;
     
     }
+    #slider video{
+        justify-content: center;
+        margin-left: 400px;
+        margin-top: 80px;
+    }
+
     #slider img{
      width:100%;
      height:100%;
