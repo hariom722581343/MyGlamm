@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  CSS for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/admin.css" />
+    <link rel="stylesheet" href="./styles/addProduct.css" />
+    <title>AddProduct</title>
+  </head>
+
+  <body>
+    <div id="body"></div>
+
+    <div id="Acontainer">
+      <div id="heading">
+        <span><i class="fa fa-list icons"></i> Add Products : -</span>
+      </div>
+
+      <div id="main-div">
+        <div id="admin-div">
+          <h1>Enter Product Details :</h1>
+          <form action="" id="product-form">
+            <input type="text" id="name" placeholder="Name" />
+
+            <input type="text" id="description" placeholder="Description" />
+
+            <label>Choose Category:</label>
+            <select id="category">
+              <option value="FaceWash">FaceWash</option>
+              <option value="Shampoo">Shampoo</option>
+              <option value="Lipstick">Lipstick</option>
+              <option value="Cream">Creams</option>
+            </select>
+
+            <input type="number" id="offerPrice" placeholder="Selling Price" />
+            <input type="number" id="actualPrice" placeholder="MRP Amount" />
+
+            <input type="url" id="img" placeholder="Image Url" />
+          </form>
+          <button id="add_product">Add Product</button>
+        </div>
+
+        <!-- div to append data below -->
+        <div id="container">
+          <!-- appending all the data here -->
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./scripts/AddProduct.js"></script>
+  </body>
+</html>
