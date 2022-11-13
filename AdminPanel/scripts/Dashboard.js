@@ -80,50 +80,6 @@ const getProducts = async () => {
 };
 getProducts();
 
-// const cardProduct = ({
-//   name,
-//   offerPrice,
-//   description,
-//   actualPrice,
-//   img,
-//   id,
-// }) => {
-//   let div = document.createElement("div");
-//   div.className = "item";
-//   let nam = document.createElement("h2");
-//   nam.innerText = name;
-
-//   let pri = document.createElement("h3");
-//   pri.innerText = offerPrice;
-//   pri.className = "product_price";
-
-//   let des = document.createElement("h4");
-//   des.innerText = description;
-
-//   let apri = document.createElement("h4");
-//   apri.innerText = actualPrice;
-
-//   let im = document.createElement("img");
-//   im.src = img;
-
-//   div.append(im, nam, des, pri);
-//   return div;
-// };
-
-// const appendProducts = (data) => {
-//   let container = document.getElementById("container");
-//   container.innerHTML = null;
-//   data.forEach((el) => {
-//     let card = cardProduct(el);
-//     container.append(card);
-//   });
-// };
-
-// let add_na = document.getElementById("Admin_name");
-// add_na.addEventListener("click", function () {
-//   Admin_name();
-// });
-
 function Admin_name() {
   let A_nam = document.getElementById("admin_name");
   A_nam.innerHTML = "Devendra Singh <span>Admin</span>";

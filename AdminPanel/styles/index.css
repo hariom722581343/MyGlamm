@@ -62,7 +62,7 @@ body{
 }
 .profile{
 	display: inline-block;
-	float: right;
+	/* float: right; */
 	width: 160px;
 }
 .pro-img{

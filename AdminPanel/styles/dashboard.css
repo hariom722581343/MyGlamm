@@ -4,14 +4,12 @@
     /* border: 1px solid yellowgreen; */
     margin: 75px 0px 0px 270px;
     height: 100%;
-    /* display: flex; */
     font-family: Arial, Helvetica, sans-serif;
   }
 
   #heading{
     border: 1px solid grey;
     border-radius: 10px 10px 10px 10px;
-    /* padding: 15px 8px 15px 32px; */
     padding: 10px 8px 10px 32px;
     margin: 10px;
     text-decoration: none;
@@ -30,13 +28,8 @@
     /* margin: 75px 0px 0px 270px; */
     /* height: 100%; */
     display: flex;
-    /* background-color: red; */
     margin-bottom: 20px;
   }
-  /* #mychart{
-    
-    border: 1px solid rgb(152, 6, 219);
-  } */
 
 #data_div{
     border: 1px solid rgb(118, 118, 236);
@@ -60,26 +53,6 @@
   border-radius: 20px;
   color: blue
 }
-
-/* #data_div2{
-  border: 1px solid blue;
-  /* color: whitesmoke; */
-  /* border-radius: 20px;
-  background-color: #3b76ef;
-  margin: 60px;
-  padding: 10px;
-} */
-/* #data_div2 >p{
-  border-radius: 20px;
-  padding: 10px;
-background-color: #63c7ff;
-color: white;
-}
-#data_div2 > span{ */
-  /* border-radius: 20px;
-background-color: #63c7ff;
-color: white;
-} */
 
 #dataTable{
   border: 2px solid black;

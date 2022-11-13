@@ -10,7 +10,6 @@
 #Anav{
     border-bottom: 1px solid #a4a8ac;
     background-color: #dde5eb;
-    /* opacity: 70.0%; */
     height: 70px;
     width: 100%;
     display: flex;
@@ -60,8 +59,6 @@
 .profile{ 
     /* border: 1px solid green; */
     background-color:#dde5eb;
-	/* display: inline-block; */
-	float: right;
 	/* width: 160px; */
     margin: auto;
     height: 50px;
@@ -147,11 +144,6 @@
     background-color:#808283a4;
   }
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-= */
-  /* #Acontainer{
-    border: 1px solid yellowgreen;
-    margin: 32px 0px 0px 300px;
-    height: 100%;
-  } */
 
 #data_div{
     border: 1px solid blue;
