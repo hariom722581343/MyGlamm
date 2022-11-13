@@ -25,10 +25,10 @@ const navbar = () => {
 
     </div>
     </div>
-    <div id="user">
-    <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    <div id="user" id="gotocart">
+    <a href="./cart.html" id="gotocart"><i class="fa-solid fa-cart-shopping"> Cart</i></a>
     |
-    <a href="./signin.html"><i class="fa-regular fa-user"></i></a>
+    <a href="./signin.html"><i class="fa-regular fa-user"></i><span id="name">User</span></a>
     </div>
     </div>
 
@@ -260,7 +260,16 @@ const navbar = () => {
             </div>
         </li>
         </ul>
-    </div>`;
+    </div>
+    
+    
+    // <script>
+    // let cart = document.getElementById("gotocart");
+    // cart.addEventListener("click", function () {
+      
+    //     window.location.href = "./cart.html"
+    // });
+    // </script>`;
 };
 
 export { navbar };

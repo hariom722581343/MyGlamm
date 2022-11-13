@@ -30,48 +30,111 @@
     /* margin: 75px 0px 0px 270px; */
     /* height: 100%; */
     display: flex;
+    /* background-color: red; */
+    margin-bottom: 20px;
   }
-  #mychart{
+  /* #mychart{
     
     border: 1px solid rgb(152, 6, 219);
-  }
+  } */
 
 #data_div{
-    border: 1px solid blue;
-    height: 150px;
+    border: 1px solid rgb(118, 118, 236);
+    /* height: 150px; */
     /* color: #3b76ef; */
-    background-color: #3b76ef;
+    background-color: #c5d4df;
     border-radius: 20px;
     margin: 60px;
+    padding: 12px;
 }
-#data_div > h1{
-  background-color: #3b76ef;
-  border-radius: 20px;
-  padding: 30px;
+#data_div > p{
+  background-color: #c5d4df;
+  border-radius: 10px;
+  padding: 4px;
   /* gap: 50; */
-  color: white;
+  font-size: 20px;
+  color: rgb(71, 67, 67);
 }
 #data_div span{
-  background-color: #3b76ef;
+  background-color: #c5d4df;
   border-radius: 20px;
-  color: white;
+  color: blue
 }
 
-#data_div2{
+/* #data_div2{
   border: 1px solid blue;
   /* color: whitesmoke; */
-  border-radius: 20px;
+  /* border-radius: 20px;
   background-color: #3b76ef;
   margin: 60px;
-}
-#data_div2 > h1{
+  padding: 10px;
+} */
+/* #data_div2 >p{
   border-radius: 20px;
   padding: 10px;
 background-color: #63c7ff;
 color: white;
 }
-#data_div2 > span{
-  border-radius: 20px;
+#data_div2 > span{ */
+  /* border-radius: 20px;
 background-color: #63c7ff;
 color: white;
+} */
+
+#dataTable{
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(230, 231, 233);
+  height: auto;
+  width: 86%;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 80px;
+  padding: 20px;
+}
+.datahead{
+  border: 2px solid grey;
+  color: #1a1313;
+  background-color: #c5d4df;
+  border-radius: 10px;
+  height: 20px;
+  font-size: 30px;
+  margin: auto;
+  padding: 10px;
+}
+h6{
+  color: #1a1313;
+  background-color: #c5d4df;
+  margin-left: 20px;
+}
+#myDataTable{
+   width: 100%;
+   border: 2px solid grey;
+   background-color: #c5d4df;
+   margin-top: 20px;
+   height: 200px;
+   border-radius: 8px;
+   padding: 10px;
+  }
+ th{
+  border: 2px solid grey;
+  color: #1a1313;
+  background-color: #108ce6;
+  border-radius: 10px;
+  height: 20px;
+  /* margin-bottom: 50px; */
+}
+td{
+  border: 2px solid grey;
+  color: black;
+  background-color: #99c5e4;
+  border-radius: 10px;
+  height: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+strong,span{
+  color: black;
+  background-color: #99c5e4;
 }

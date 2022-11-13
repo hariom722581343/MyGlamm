@@ -41,10 +41,18 @@ const getProducts = async () => {
 
     let A_nam = document.getElementById("total_products");
     A_nam.innerText = Total_Products;
+    let A_lip = document.getElementById("total_lip");
+    A_lip.innerText = Lip;
+    let A_sam = document.getElementById("total_sam");
+    A_sam.innerText = Sam;
+    let A_fac = document.getElementById("total_fac");
+    A_fac.innerText = Fac;
+    let A_crm = document.getElementById("total_crm");
+    A_crm.innerText = Crm;
 
     var xValues = ["Lipstick", "Shampoo", "Facewash", "Creams"];
     var yValues = [Lip, Sam, Fac, Crm];
-    var barColors = ["#f71b55", "#11eeea", "#21ec80", "#f7d4cb"];
+    var barColors = ["#f71b55", "#2ff7f3", "#12eb77", "#ffced6"];
 
     new Chart("myChart", {
       type: "pie",

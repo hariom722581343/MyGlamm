@@ -38,7 +38,7 @@
       "name": "SunShine",
       "description": "sun is raising you can also raising",
       "category": "Shampoo",
-      "offerPrice": "5000",
+      "offerPrice": "1500",
       "actualPrice": 2000
     }
   ],
@@ -60,15 +60,6 @@
       "category": "FaceWash",
       "offerPrice": 32,
       "actualPrice": 33
-    },
-    {
-      "id": "1668280934670Devendra Singh",
-      "img": "",
-      "name": "Devendra Singh",
-      "description": "",
-      "category": "FaceWash",
-      "offerPrice": 0,
-      "actualPrice": 0
     }
   ],
   "lipstick": [
