@@ -1,7 +1,10 @@
-# Be Pretty
-# Team Logo:- https://files.slack.com/files-pri/T044Z1KKJ7J-F049SPABZUN/be_pretty.png 
+# Be Pretty :- MyGlamm.com Clone
+Team Logo:- https://files.slack.com/files-pri/T044Z1KKJ7J-F049SPABZUN/be_pretty.png 
 
-The Best of Both the World's  :-      A wonderful project and a great collaborators.
+Buy international beauty products & cosmetic makeup items on MyGlamm, the online beauty shopping store. Shop Manish Malhotra beauty products & more for lips ...
+https://fantastic-piroshki-8229c8.netlify.app/
+<h2>Tech Stack</h2> HTML | CSS | JavaScript 
+<p align="center", margin-top:"20px"><img align="center" src="https://files.myglamm.com/site-images/original/popxo1920x527.gif" alt="" /></p>
 
 
 Team Members :- 
